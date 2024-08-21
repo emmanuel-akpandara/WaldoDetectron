@@ -8,8 +8,8 @@ model_path = 'Model/FindingWaldo.pt'
 model = YOLO(model_path)
 
 # Streamlit interface
-st.title("YOLOv8 Object Detection")
-st.write("Upload an image and the model will perform object detection.")
+st.title("Finding Waldo | YOLOv8 Object Detection")
+st.write("Upload an image of Waldo and the model will perform object detection.")
 
 # File uploader
 uploaded_file = st.file_uploader("Choose an image...", type=["jpg", "jpeg", "png","webp"])
