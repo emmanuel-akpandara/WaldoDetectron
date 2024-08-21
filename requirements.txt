@@ -2,5 +2,5 @@ streamlit
 torch
 ultralytics
 opencv-python
-pillow
+Pillow
 numpy
